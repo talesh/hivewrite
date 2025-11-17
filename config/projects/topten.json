@@ -1,0 +1,49 @@
+{
+  "slug": "topten",
+  "name": "OWASP Top 10",
+  "githubRepo": "OWASP/Top10",
+  "sourceBranch": "main",
+  "sourceFolder": "/2_0_vulns",
+  "translationFolder": "/2_0_vulns/translations",
+  "tmpFolder": "/2_0_vulns/translations/{language}/tmp",
+  "filePattern": "*.md",
+  "priorityFiles": [
+    "01-broken-access-control.md",
+    "02-cryptographic-failures.md",
+    "03-injection.md",
+    "04-insecure-design.md",
+    "05-security-misconfiguration.md"
+  ],
+  "languages": {
+    "es-ES": {
+      "name": "Spanish (Spain)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-16T10:30:00Z"
+    },
+    "ar-SA": {
+      "name": "Arabic (Saudi Arabia)",
+      "direction": "rtl",
+      "status": "active",
+      "initialized": "2025-11-10T08:00:00Z"
+    },
+    "fr-FR": {
+      "name": "French (France)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-12T14:00:00Z"
+    },
+    "de-DE": {
+      "name": "German (Germany)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-14T09:00:00Z"
+    },
+    "zh-CN": {
+      "name": "Chinese (Simplified)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-15T11:00:00Z"
+    }
+  }
+}

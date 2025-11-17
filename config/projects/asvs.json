@@ -1,0 +1,36 @@
+{
+  "slug": "asvs",
+  "name": "OWASP ASVS",
+  "githubRepo": "OWASP/ASVS",
+  "sourceBranch": "master",
+  "sourceFolder": "/4.0/en",
+  "translationFolder": "/4.0",
+  "tmpFolder": "/4.0/{language}/tmp",
+  "filePattern": "*.md",
+  "priorityFiles": [
+    "V1-Architecture.md",
+    "V2-Authentication.md",
+    "V3-Session-management.md",
+    "V4-Access-Control.md"
+  ],
+  "languages": {
+    "fr-FR": {
+      "name": "French (France)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-12T14:00:00Z"
+    },
+    "ja-JP": {
+      "name": "Japanese (Japan)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-13T10:00:00Z"
+    },
+    "pt-BR": {
+      "name": "Portuguese (Brazil)",
+      "direction": "ltr",
+      "status": "active",
+      "initialized": "2025-11-11T16:00:00Z"
+    }
+  }
+}
